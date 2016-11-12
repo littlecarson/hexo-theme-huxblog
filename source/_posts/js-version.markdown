@@ -1,13 +1,16 @@
 ---
 layout:     post
-title:      "Example Post"
-date:       2014-09-22
+title:      "「Rep」JavaScript's Version History"
+subtitle:   "JavaScript 之历史发展 —— 转自Hux的博客"
+date:       2016-09-01 15:15:15
 author:     "Hux"
+catalog:    true
 header-img: "post-bg-js-version.jpg"
 tags:
     - 前端开发
     - JavaScript
     - 翻译
+    - 转载
 ---
 
 

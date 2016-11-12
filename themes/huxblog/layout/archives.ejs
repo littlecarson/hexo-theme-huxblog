@@ -39,22 +39,26 @@ layout: layout
 
             <% Object.keys(years).reverse().forEach(function(year){  %>
             <div class="one-tag-list">
-                <span class="fa fa-calendar-times-o listing-seperator" id="<%= year %>">
-                    <span class="tag-text"><%= year %></span>
-                </span>
-                <ul>
+                <!-- <span class="fa fa-calendar-times-o listing-seperator" id="<%= year %>"> </span> -->
+                    <hr/>
+                    <h3 class="tag-text"><%= year %> 年</h3>
+                    <hr/>
+                <ul class="list-unstyled">
                 <% years[year].map(function(post){  %>
                   <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
                   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                   </li> -->
-                 <li >
+                 <li>
                     <%= post.date.format('MM-DD') %>
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                    <a href="<%- config.root %><%- post.path %>" style="color: #0085a1">
-                        <span>
-                            <%- post.title || "Untitled" %>
-                        </span>
+                    <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+                    <a href="<%- config.root %><%- post.path %>" style="color: #4c4e4f">
+                        <i>
+                            &nbsp;&nbsp;
+                            <span>
+                                <%- post.title || "Untitled" %>
+                            </span>
+                        </i>
                     </a>
                     <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
                 </li>

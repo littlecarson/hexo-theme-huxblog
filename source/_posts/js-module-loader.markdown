@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Example Post with Code Highlight"
+title:      "「Rep」Sum-up of CommonJS RequireJS SeaJS Modularization"
 subtitle:   "CommonJS，RequireJS，SeaJS 归纳笔记"
-date:       2013-05-25
+date:       2016-09-01 20:57:00
 author:     "Hux"
 catalog:    true
 header-img: "post-bg-js-module.jpg"
