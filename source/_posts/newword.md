@@ -10,9 +10,16 @@ tags:
     - Word
 ---
 
+## 12.09
+
+1. vendor   n. 买主，摊贩，供应商
+
 ## 12.08
 
 1. terminate  vt. 结束，解雇，到达终点站  adj.结束的
+2. handlebars  n. 手把，把手，八字胡
+3. fortune    n. 幸运，富有，命运 v. 给予财富，偶然发生
+4. semver     n. 语义化版本器（NPM）
 
 ## 12.05
 
