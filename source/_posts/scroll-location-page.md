@@ -25,7 +25,7 @@ tags:
 
 - 特效分析：
     
-    ![readme-01](image/readme-01.png)
+    ![readme-01](readme-01.png)
 
 
 ## 技术支撑
