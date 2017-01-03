@@ -15,20 +15,55 @@ tags:
 ```
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 
+# ubuntu 14
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+
+# ubuntu 16
+echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 
 apt-get update
 
 apt-get install -y mongodb-org
 
+# 固定版本
+echo "mongodb-org hold" | sudo dpkg --set-selections
+echo "mongodb-org-server hold" | sudo dpkg --set-selections
+echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+
 # 启动MongoDB
-service mongod start
+sudo service mongod start
 # 查看服务状态
-service mongod status
+sudo service mongod status
 
 # 远程连接配置
 vim /etc/mongod.conf
 vim: #bind_ip 127.0.0.1 监听所有外网ip
+
+# 下载管理脚本
+wget https://github.com/mongodb/mongo/raw/master/debian/init.d
+sudo mv init.d /etc/init.d/mongodb
+sudo chmod +x /etc/init.d/mongodb
+
+# 修改内核
+sudo sh -c 'echo never > /sys/kernel/mm/transparent_hugepage/enabled'
+sudo sh -c 'echo never > /sys/kernel/mm/transparent_hugepage/defrag'
+
+# 卸载
+sudo service mongod stop
+sudo apt-get purge mongodb-org*
+sudo rm -r /var/log/mongodb
+sudo rm -r /var/lib/mongodb
+
+# 查看配置文件
+vim /etc/mongod.conf
+
+#设置开机启动
+sudo systemctl enable mongod
+
+#取消开机启动
+sudo systemctl disable mongod
 ```
 
 ## Python 下使用 MongoDB
