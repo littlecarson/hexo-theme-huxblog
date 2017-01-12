@@ -10,6 +10,20 @@ tags:
     - Word
 ---
 
+## 1.12
+
+1. alchemy n. 炼金术，炼丹术，魔力，神秘变化
+2. suppress vt. 镇压，压制，禁止发表，阻止……的发展
+3. migrate v. 移动，迁移
+
+## 1.11
+
+1. alternative adj.替代的，另类的，备选的 n. 可供选择的食物
+2. alternatives n. 选择的余地，可供选择的事物，非传统的生活方式的追随者
+3. integration n. 整合，一体化，结合
+4. maintainer n. 维护者，维修者，诉讼罪者
+5. deprecate v. 反对
+
 ## 1.3
 
 1. retrieve v. 取回，恢复，找回, n. 取回，挽回，检索
@@ -61,7 +75,7 @@ tags:
 
 1. velocity    n. 高速，快速，速率
 2. opacity     n. 不透明性，模糊，难懂
-3. collapse    v. 崩溃，倒塌，坐下，瓦解倒塌 n.垮台,（身体）衰弱
+3. collapse    v. 崩溃，倒塌，坐下，折叠 n.垮台,（身体）衰弱
 
 ## 12.01
 
@@ -153,7 +167,7 @@ tags:
 4. compose      v. 构成，组成，创作
 5. logic        n. 逻辑，推理方法，道理  adj. 逻辑的
 6. assumption   n. 假定，承担，假设，采取
-7. maintain     vt. 保持，保养，坚持，固执己见
+7. ``maintain     vt. 保持，保养，坚持，固执己见
 8. in addtion to n. 除。。。之外
 9. internal     adj. 内部的，国内的，体内的 n. 内脏，本质，本性
 10. declarative  adj.声明的，宣言的，公布的
