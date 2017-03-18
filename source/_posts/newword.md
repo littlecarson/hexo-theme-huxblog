@@ -10,6 +10,14 @@ tags:
     - Word
 ---
 
+## 3.9
+
+1. loupe  n. 小型放大镜
+2. hue  n. 色相，外表，信仰，呐喊
+3. saturation  n. 饱和度，纯度，浸透，浸润
+4. luminance  n. 亮度，发光度
+. baseline 基线，底线
+
 ## 1.12
 
 1. alchemy n. 炼金术，炼丹术，魔力，神秘变化
