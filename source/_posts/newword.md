@@ -10,13 +10,27 @@ tags:
     - Word
 ---
 
+## 3.21
+1. savvy  n. 常识，技能 adj. 有见识的，精明的
+2. mute adj. 无声的，哑的
+
+## 3.18
+
+1. agile 灵活，轻快，机敏，敏捷
+2. essential adj&n 基本的，必须的，必需品，精华
+3. dashed n. 虚线 vt. 冲，猛冲
+4. groove n.v 沟，槽，刻槽
+5. outset n. 开始，开端
+6. ridge n. 山脊，山脉
+7. proposal n. 建议，提议，求婚，议案
+
 ## 3.9
 
 1. loupe  n. 小型放大镜
 2. hue  n. 色相，外表，信仰，呐喊
 3. saturation  n. 饱和度，纯度，浸透，浸润
 4. luminance  n. 亮度，发光度
-. baseline 基线，底线
+5. baseline 基线，底线
 
 ## 1.12
 
