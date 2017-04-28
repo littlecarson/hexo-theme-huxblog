@@ -16,5 +16,9 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:littlecarson/hexo-theme-huxblog.git",
+  "author": "littlecarson <chenkansheng0@163.com>",
+  "license": "MIT"
 }

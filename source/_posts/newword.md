@@ -14,6 +14,7 @@ tags:
 
 1. inference n. 推理，推断，推论
 2. peer v. 仔细看 n. 同等地位的人，同龄人，贵族
+3. interfere vi. 干涉，妨碍，打扰，调停
 
 ## 3.21
 1. savvy  n. 常识，技能 adj. 有见识的，精明的
